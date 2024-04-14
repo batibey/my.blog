@@ -11,5 +11,7 @@ namespace my.blog.site.Data
         {
                 
         }
+
+        public DbSet<Projects> Projects { get; set; }
     }
 }
