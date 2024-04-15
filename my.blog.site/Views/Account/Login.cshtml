@@ -2,8 +2,10 @@
 @model LoginVM;
 
 @{
-    ViewData["Title"] = "Login";
+    Layout = "_LoginLayout";
 }
+
+<div asp-validation-summary="All" class="text-danger"></div>
 
 <div class="row d-flex align-items-center justify-content-center">
     <div class="col-md-3 card p-3">
